@@ -1,0 +1,61 @@
+
+.main{
+    background-color: bisque;
+}
+
+.shadow{
+    background-color: white;
+}
+
+/* 글꼴 */
+h1,.navbar, #text{
+    font-family: 'Jua', sans-serif;
+}
+
+p,h5, .text, #st{
+    font-family: 'Gowun Dodum', sans-serif;
+}
+
+h2, #room_search, .lt{
+    font-family: 'Stylish', sans-serif;
+}
+
+.title{
+    font-family: 'Jua', sans-serif;
+}
+
+/* 바 */
+.navbar{
+    background-color: black;
+}
+
+/* 알바화면 스타일 시작 */
+
+a {
+    text-decoration: none;
+    color:black
+}
+
+.nav-ling.active, .nav-link:hover {
+    color:rgb(255, 180, 41) !important;
+    font-weight:bold;
+}
+
+.to_top {
+    position: fixed;
+    right: 10px;
+    bottom: 70px;
+    opacity: 70%;
+}
+
+.to_end {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    margin-bottom: 2px;
+    opacity: 70%;
+}
+
+.end {
+    background-color: black;
+}

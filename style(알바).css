@@ -1,0 +1,49 @@
+/* 알바화면 스타일 시작 */
+/* 메인화면 */
+.main{
+    background-color: bisque;
+}
+/* 글꼴 */
+h1,.navbar, #text{
+    font-family: 'Jua', sans-serif;
+}
+
+p,h5, .text, #st{
+    font-family: 'Gowun Dodum', sans-serif;
+}
+
+h2{
+    font-family: 'Stylish', sans-serif;
+}
+
+/* 바 */
+.navbar{
+    background-color: black;
+}
+
+.nav-ling.active, .nav-link:hover {
+    color:rgb(255, 180, 41) !important;
+    font-weight:bold;
+}
+
+
+/* footer */
+.end{
+    background-color: black;
+}
+
+/* 화살표 */
+.to_top {
+    position: fixed;
+    right: 10px;
+    bottom: 70px;
+    opacity: 70%;
+}
+
+.to_end {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    margin-bottom: 2px;
+    opacity: 70%;
+}

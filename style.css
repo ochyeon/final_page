@@ -1,0 +1,33 @@
+/* 홈화면 스타일 시작 */
+/* 메인화면 스타일 */
+#main{
+    background-image: url(images/main.jpg);
+    background-size: cover;
+    background-position: center top;
+    background-attachment: fixed;
+}
+
+/* 글꼴 */
+h1,.navbar, #text{
+    font-family: 'Jua', sans-serif;
+}
+
+#st{
+    font-family: 'Gowun Dodum', sans-serif;
+}
+
+/* 바 */
+.navbar{
+    background-color: bisque;
+}
+
+/* footer */
+.end{
+    background-color: bisque;
+}
+
+/* 버튼 근처에 커서가 오면 버튼이 커짐 */
+.bt:hover {
+    transform: scale(1.1);
+}
+/* 홈화면 스타일 끝 */
